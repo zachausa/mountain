@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+ /* margin: 75px 0;*/
+  background-color: #36465D;
+
+}
+
+#main-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /*height: 47px;*/
+  background-image: -webkit-linear-gradient(top, #517fa4, #306088);
+  box-shadow: 2px 3px 10px rgba(50, 50, 50, 0.75);
+  z-index: 900;
+}
+
+.nav-header {
+  color:black ;
+}
+
+.navlogo {
+  width: 130px;
+  height: 50px;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+body {
+  background-color: black;
+}
+
+.mountainflikrhead {
+  font-size: 30px;
+  margin-top: 50px;
+  color: gold;
+  text-align: center;
+}
+
+.card {
+  width: 320px;
+  height: 360px;
+  background-size: 320px 180px;
+  background-repeat: no-repeat;
+  border: 1px solid burlywood;
+  border-radius: 10px;
+  margin: 25px auto;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  display: inline-block;
+  margin-right: 28px;
+}
+
+.title {
+  position: relative;
+  left: 15px;
+  top: 195px;
+  width: 90%;
+  max-height: 15px;
+  overflow: hidden;
+  font-weight: bold;
+  color: white;
+}
+
+.tags {
+  position: relative;
+  left: 15px;
+  top: 205px;
+  height: 125px;
+  overflow-y: scroll;
+  width: 90%;
+  color: #999;
+}
+
+.author {
+color: yellowgreen;
+margin-top: 198px;
+}
